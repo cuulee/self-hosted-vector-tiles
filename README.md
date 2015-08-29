@@ -4,12 +4,12 @@ An attempt to self host vt using tilemaker+tessera+tile-live
 
 
 # Dependencies
-```npm install -g tessera tl mbtiles mapnik tilelive tilelive-file tilelive-http tilelive-mapbox tilelive-mapnik tilelive-s3 tilelive-tmsource tilelive-tmstyle tilelive-utfgrid tilelive-vector tilejson```
+``npm install -g tessera tl mbtiles mapnik tilelive tilelive-file tilelive-http tilelive-mapbox tilelive-mapnik tilelive-s3 tilelive-tmsource tilelive-tmstyle tilelive-utfgrid tilelive-vector tilejson```
 
 #Caveat
-Modify `project.yaml` within the `prject.tm2/` folder, in order to point to the local mbtiles.
+Modify `project.yaml` within the `prject.tm2/` folder, in order to point to the local mbtiles.  
 i.e. from `source: "mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5"`  
-to source: `"mbtiles:///path/to/your/.mbtiles"`  
+to  `source: "mbtiles:///path/to/your/.mbtiles"`  
 
 
 #Usage
