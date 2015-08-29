@@ -1,0 +1,18 @@
+{
+  "name": "vt-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mbtiles": "^0.8.0",
+    "tessera": "^0.5.3",
+    "tilelive": "^5.8.2",
+    "tilelive-tmstyle": "^0.4.1",
+    "tilelive-vector": "^3.3.3"
+  }
+}
